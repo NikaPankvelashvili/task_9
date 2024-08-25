@@ -47,10 +47,10 @@ function init(){
     const moon_geometry = new THREE.SphereGeometry(4, 64, 32);
 
     // textures
-    const earthTexture = new THREE.TextureLoader().load('./earth.jpg');
+    const earthTexture = new THREE.TextureLoader().load('/earth.jpg');
     const earth_material = new THREE.MeshStandardMaterial({ map: earthTexture });
 
-    const moonTexture = new THREE.TextureLoader().load('./moon.jpg');
+    const moonTexture = new THREE.TextureLoader().load('/moon.jpg');
     const moon_material = new THREE.MeshStandardMaterial({ map: moonTexture });
 
     // mesh
